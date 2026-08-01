@@ -1,4 +1,16 @@
 aid: rodin-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rodin-therapeutics.png
 name: Rodin Therapeutics *
 description: 'Rodin Therapeutics * is a company surfaced as a portfolio company of gv and added to the
   API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
@@ -12,10 +24,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Neuroscience
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +38,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rodin-therapeutics-domain-security.yml
 - type: Website
   url: http://rodintherapeutics.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  x-note: 'Rodin Therapeutics acquired by Alkermes 2019-11-25 and dissolved; rodintherapeutics.com dead (HTTP 404, HTTPS reset); no live API/docs/well-known surface.'
